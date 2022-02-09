@@ -52,7 +52,6 @@ function validateEmail(templateParams){
     if(templateParams.email.match(format)){
         return true;
     } else {
-        // alert("You have entered an invalid email address");
         $("#email").focus();
         return false;
     }
